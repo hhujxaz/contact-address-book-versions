@@ -1,3 +1,5 @@
+#this is the first version of the code
+# this code uses the csv file that has the name "address book"
 import csv
 #file name;all contacts get saved/ loaded
 _file = "address book.csv"
@@ -316,4 +318,5 @@ def main_manu():
         else:
             print('Invalid choice, please enter a number from 1 to 8')
 if __name__ == "__main__":
+
     main_manu()
