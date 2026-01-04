@@ -1,3 +1,5 @@
+#this is the code we used 
+#this code uses the csv file with the name "contacts.csv"
 import csv
 
 FILE_NAME = "contacts.csv"
