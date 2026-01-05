@@ -92,6 +92,9 @@ Address : {c.address}
             print("Contact not found.")
 
     def edit_contact(self):
+        if not self.contacts:
+            print("No contacts available.")
+            return
         self.view_contacts()
         try:
             i = int(input("Contact number: ")) - 1
@@ -106,6 +109,9 @@ Address : {c.address}
             print("Invalid input.")
 
     def delete_contact(self):
+        if not self.contacts:
+            print("No contacts available.")
+            return
         self.view_contacts()
         try:
             i = int(input("Contact number: ")) - 1
